@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: Poppins, sans-serif;
+}
+
+.container .heading-desc-sec-heading {
+  font-family: "Abril Fatface";
+  font-size: 56px;
+  line-height: 76px;
+  margin-bottom: 30px;
+}
+.container .heading-desc-sec-desc {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 172.9%;
+  margin-bottom: 84px;
+}
+.container .col-md-3 {
+  height: 100%;
+  background: #f6f6f6;
+  border-radius: 16px;
+}
+.container .filter-heading {
+  width: 44px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 14px;
+  color: #4a5654;
+  margin-top: 32px;
+}
+.container .filter-platform {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 14px;
+  color: #7b8d9e;
+  margin-top: 24px;
+  text-align: left;
+  margin-bottom: 27px;
+}
+.container .filter .dropdown {
+  background: #ffffff;
+  border: 0.5px solid #c1c5d6;
+  border-radius: 5px;
+}
+.container .filter .dropdown-toggle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #7b8d9e;
+  padding: 12px 111px 12px 20px;
+}
+.container .filter .btn.show {
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+}
+.container .filter-hr {
+  color: 0.5px solid #c1c5d6;
+  margin-bottom: 24px !important;
+}
+.container .heading-desc-sec {
+  text-align: center;
+}
+.container input:focus {
+  outline-offset: -2px;
+}
+.container .form-check-input:checked {
+  background-color: #0bf7c7;
+  border-color: #0bf7c7;
+}
+.container #submitsearch {
+  border: 1px solid rgb(138, 134, 134);
+  margin-left: -82px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 8px;
+  padding-top: 4px;
+  display: none;
+  box-shadow: 0 0 1px black;
+  margin-right: 110px;
+}
+.container #searchInput {
+  font-size: 16px;
+  background-color: white;
+  background-image: url("https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png");
+  background-position: 10px 17px;
+  background-repeat: no-repeat;
+  padding: 8px 20px 8px 40px;
+  transition: width 0.8s ease-in-out;
+  outline: none;
+  opacity: 0.9;
+  height: 56px;
+  border: 0.5px solid #c1c5d6;
+  border-radius: 5px;
+  margin-top: 26px;
+  width: 100%;
+}
+.container .buttons {
+  text-align: left;
+}
+.container .buttons-subscribe {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 14px;
+  color: #7b8d9e;
+  margin-bottom: 24px;
+}
+.container .buttons .btn-active {
+  padding: 10px;
+  background: #00c79e;
+  border: 0.5px solid #c5ede4;
+  border-radius: 4px;
+}
+.container .buttons .btn-active-txt {
+  font-family: "Montserrat";
+  line-height: 14px;
+  color: #ffffff;
+  padding: 10px;
+}
+.container .buttons .btn {
+  padding: 10px;
+  border: 0.5px solid #c1c5d6;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+.container .buttons .btn-txt {
+  font-family: "Montserrat";
+  line-height: 14px;
+  color: #7b8d9e;
+}
+.container .range-label {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 160px;
+  margin-top: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #7b8d9e;
+}
+.container .range-label-left, .container .range-label-right {
+  width: 50%;
+}
+.container .range-label-left {
+  float: left;
+}
+.container label {
+  position: absolute;
+  display: inline-block;
+  left: 154px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #7b8d9e;
+}
+.container .card-img-top-ellipse {
+  margin-top: -57px;
+}
+.container .card-title {
+  margin-top: 45px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.container .card-subtitle {
+  font-family: "Abril Fatface";
+  font-size: 24px;
+  line-height: 24px;
+  color: #00c79e;
+  margin-bottom: 3px;
+}
+.container .card-text {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  color: #7b8d9e;
+  margin-bottom: 15px;
+}
+.container .card-hr {
+  background: #c1c5d6;
+  width: 100px;
+}
+.container .social-link {
+  display: flex;
+  margin-top: 24px;
+}
+.container .social-link-logo, .container .social-link-links {
+  width: 50%;
+}
+.container .social-link-links {
+  display: flex;
+}
+.container .fb,
+.container .insta,
+.container .yt {
+  width: 33.33%;
+}
+.container .footer-links {
+  display: flex;
+  flex-direction: row;
+}
+.container .border-bottom {
+  border-bottom: none !important;
+}
+
+.card {
+  width: auto !important;
+  margin-bottom: 28px;
+}
+.card-body {
+  background: #f6f6f6;
+  border-radius: 16px;
+}
+
+.form-range {
+  background: #c1c5d6;
+  border-radius: 8px;
+}
+
+.like-follower {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 14px;
+  color: #7b8d9e;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=style.css.map */
